@@ -1,0 +1,524 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\IntelliCloud\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj",
+        "projectName": "IntelliHttpClient",
+        "projectPath": "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\IntelliHttpClient",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile\\IntelliMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile\\IntelliMobile.csproj",
+        "projectName": "IntelliMobile",
+        "projectPath": "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile\\IntelliMobile.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj": {
+                "projectPath": "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj"
+              },
+              "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj": {
+                "projectPath": "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj"
+              },
+              "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj": {
+                "projectPath": "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\IntelliTool\\IntelliTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\IntelliTool\\IntelliTool.csproj",
+        "projectName": "IntelliTool",
+        "projectPath": "H:\\IntelliCloud\\IntelliTool\\IntelliTool.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\IntelliTool",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj": {
+                "projectPath": "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj",
+        "projectName": "ModelLib",
+        "projectPath": "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\ModelLib",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj": {
+                "projectPath": "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Enums.NET": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj",
+        "projectName": "OpenCV2",
+        "projectPath": "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\OpenCV2",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj": {
+                "projectPath": "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "OpenCvSharp3-AnyCPU": {
+              "target": "Package",
+              "version": "[4.0.0.20181129, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj",
+        "projectName": "OpenCv",
+        "projectPath": "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\OpenCv",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\IntelliCloud\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\IntelliCloud\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "H:\\IntelliCloud\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\IntelliCloud\\Test",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj": {
+                "projectPath": "H:\\IntelliCloud\\IntelliHttpClient\\IntelliHttpClient.csproj"
+              },
+              "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile\\IntelliMobile.csproj": {
+                "projectPath": "H:\\IntelliCloud\\IntelliMobile\\IntelliMobile\\IntelliMobile.csproj"
+              },
+              "H:\\IntelliCloud\\IntelliTool\\IntelliTool.csproj": {
+                "projectPath": "H:\\IntelliCloud\\IntelliTool\\IntelliTool.csproj"
+              },
+              "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj": {
+                "projectPath": "H:\\IntelliCloud\\ModelLib\\ModelLib.csproj"
+              },
+              "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj": {
+                "projectPath": "H:\\IntelliCloud\\OpenCV2\\OpenCV2.csproj"
+              },
+              "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj": {
+                "projectPath": "H:\\IntelliCloud\\OpenCv\\OpenCv.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Baidu.AI": {
+              "target": "Package",
+              "version": "[3.6.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PaddleOCR": {
+              "target": "Package",
+              "version": "[0.0.5, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

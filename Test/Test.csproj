@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>6</VersionMinor>
+      <VersionMajor>8</VersionMajor>
+      <Guid>00020905-0000-0000-c000-000000000046</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Baidu.AI" Version="3.6.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="PaddleOCR" Version="0.0.5" />
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntelliHttpClient\IntelliHttpClient.csproj" />
+    <ProjectReference Include="..\IntelliMobile\IntelliMobile\IntelliMobile.csproj" />
+    <ProjectReference Include="..\IntelliTool\IntelliTool.csproj" />
+    <ProjectReference Include="..\ModelLib\ModelLib.csproj" />
+    <ProjectReference Include="..\OpenCV2\OpenCV2.csproj" />
+    <ProjectReference Include="..\OpenCv\OpenCv.csproj" />
+  </ItemGroup>
+
+</Project>

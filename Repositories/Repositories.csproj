@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="project.assets.json" />
+    <None Remove="project.nuget.cache" />
+    <None Remove="Repositories.csproj.nuget.dgspec.json" />
+    <None Remove="Repositories.csproj.nuget.g.props" />
+    <None Remove="Repositories.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Baidu.AI" Version="3.6.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModelLib\ModelLib.csproj" />
+    <ProjectReference Include="..\OpenCV2\OpenCV2.csproj" />
+    <ProjectReference Include="..\OpenCv\OpenCv.csproj" />
+  </ItemGroup>
+
+</Project>
